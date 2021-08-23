@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let food of foods">
+      <td>{{food.id}}</td>
+      <td>{{food.name}}</td>
+      <td>{{food.price}}</td>
+    </tr>
+  </tbody>
+</table>
